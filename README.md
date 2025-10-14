@@ -15,7 +15,6 @@ Layout: moderno, responsivo e visualmente atrativo.
 Tecnologias: HTML5, CSS3.  
 
 Etapas
-Etapa Responsável | Data |
 
 Ideia do site e inicio do projeto no Figma / Cauã Cerqueira, Ana Maria / 08/10/2025
 Criação do Prototipo no Figma / Ana Maria / 08/10/2025
