@@ -9,17 +9,33 @@
 <body>
     <header>
         <div class="logo">
-            <h1>CREPE DO LULA</h1>
+            <h1 id="tituloSite">CREPE DO LULA</h1>
         </div>
-    <nav>
-    <a href="index.html" class="nav-btn">MENU</a>
-    <a href="eventos.html" class="nav-btn">SOBRE O CREPE DO LULA</a>
-    <a href="contato.html" class="nav-btn">CONTATO</a>
-    </nav>
-
+        <nav>
+            <a href="index.html" class="nav-btn">MENU</a>
+            <a href="eventos.html" class="nav-btn">SOBRE O CREPE DO LULA</a>
+            <a href="contato.html" class="nav-btn">CONTATO</a>
+        </nav>
     </header>
 
     <main>
+        <!-- DESAFIO 2: Campo de busca com saudação personalizada -->
+        <div style="text-align: center; margin: 30px 0; padding: 20px; background-color: #1a1a1a; border-radius: 15px;">
+            <input 
+                type="text" 
+                id="nomeUsuario" 
+                placeholder="Digite seu nome para uma saudação personalizada"
+                style="padding: 12px 20px; border-radius: 25px; border: 2px solid #ffcc00; background-color: #000; color: #fff; font-size: 16px; width: 100%; max-width: 500px;"
+            >
+            <p id="mensagemBoasVindas" style="color: #ffcc00; font-size: 20px; margin-top: 15px; font-weight: bold;"></p>
+        </div>
+
+        <!-- DESAFIO 1: Botão com interação -->
+        <div style="text-align: center; margin: 20px 0;">
+            <button id="botaoPromocao" class="nav-btn" style="font-size: 18px; padding: 15px 40px; cursor: pointer;">
+                🎉 Ver Promoções Especiais
+            </button>
+        </div>
         
         <section class="menu-section" id="salgados">
             <div class="section-header">
@@ -30,11 +46,11 @@
                 <a href="#bebidas" class="category-btn">Bebidas</a>
             </div>
 
-
             <h2 class="section-title">CREPES SALGADOS</h2>
 
             <div class="products-grid">
-                <div class="product-card">
+                <!-- DESAFIO 3: Cards com reação ao mouse -->
+                <div class="product-card card-hover">
                     <div class="product-image">
                          <img src="Img Figma/Frango Catupiry .jpg" alt="Crepe tradicional de frango">
                     </div>
@@ -42,7 +58,7 @@
                     <p class="price">Adicionar • R$ 18,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Frango Catupiry .jpg" alt="Crepe de Frango catupiry">
                     </div>
@@ -50,7 +66,7 @@
                     <p class="price">Adicionar • R$ 20,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Presunto e queijo .jpg" alt="Crepe presunto e catupiry">
                     </div>
@@ -58,7 +74,7 @@
                     <p class="price">Adicionar • R$ 20,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Presunto e queijo .jpg" alt="Crepe Queijo presunto e cheddar">
                     </div>
@@ -66,7 +82,7 @@
                     <p class="price">Adicionar • R$ 18,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Calabresa e catupiry .jpg" alt="Crepe calabresa e catupiry">
                     </div>
@@ -74,7 +90,7 @@
                     <p class="price">Adicionar • R$ 28,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Calabresa e catupiry .jpg " alt= "Crepe Calabresa e cheddar">
                     </div>
@@ -82,7 +98,7 @@
                     <p class="price">Adicionar • R$ 20,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Calabresa e frango .jpg" alt="Crepe Queijo, calabresa e frango  ">
                     </div>
@@ -90,7 +106,7 @@
                     <p class="price">Adicionar • R$ 22,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Calabresa e frango .jpg" alt="Queijo, calabresa e presunto  ">
                     </div>
@@ -98,7 +114,7 @@
                     <p class="price">Adicionar • R$ 18,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Presunto e queijo .jpg" alt="Crepe Presunto e queijo">
                     </div>
@@ -106,15 +122,15 @@
                     <p class="price">Adicionar • R$ 24,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Tres queijos .jpg" alt="Crepe tres queijos">
                     </div>
-                    <h3>Crepe Tres queijos <h3>
+                    <h3>Crepe Tres queijos</h3>
                     <p class="price">Adicionar • R$ 24,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Queijo calabresa presunto e frango .jpg" alt="Queijo, calabresa, presunto e frango  ">
                     </div>
@@ -122,7 +138,7 @@
                     <p class="price">Adicionar • R$ 22,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Carne seca e catupiry .jpg" alt="Carne seca e catupiry">
                     </div>
@@ -130,7 +146,7 @@
                     <p class="price">Adicionar • R$ 24,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Carne seca e cheddar.jpg" alt="Carne seca e cheddar">
                     </div>
@@ -138,21 +154,21 @@
                     <p class="price">Adicionar • R$ 24,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/File Mignon .jpg" alt="File Mignon">
                     </div>
                     <h3>Crepe de queijo, File Mignon, tomate e cebola</h3>
                     <p class="price">Adicionar • R$ 28,00</p>
                 </div>
+            </div>
         </section>
 
-      
         <section class="menu-section" id="doces">
             <h2 class="section-title">CREPES DOCES</h2>
 
             <div class="products-grid">
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Banana com canela.jpg" alt="Crepe banana com canela">
                     </div>
@@ -160,7 +176,7 @@
                     <p class="price">Adicionar • R$ 16,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Banana com nutela .jpg" alt="Banana e chocolate">
                     </div>
@@ -168,7 +184,7 @@
                     <p class="price">Adicionar • R$ 18,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Queijo e chocolate .jpg" alt="Queijo e chocolate">
                     </div>
@@ -176,7 +192,7 @@
                     <p class="price">Adicionar • R$ 20,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/chocolate .jpg" alt="chocolate">
                     </div>
@@ -184,7 +200,7 @@
                     <p class="price">Adicionar • R$ 18,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/chocolate com banana .jpg" alt="Crepe chocolate com banana">
                     </div>
@@ -192,7 +208,7 @@
                     <p class="price">Adicionar • R$ 20,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/chocolate com morango .jpg" alt="Morango e chocolate">
                     </div>
@@ -200,7 +216,7 @@
                     <p class="price">Adicionar • R$ 22,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/morango queijo e chocolate .jpg" alt="Morango queijo e chocolate">
                     </div>
@@ -208,7 +224,7 @@
                     <p class="price">Adicionar • R$ 24,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Queijo banana e nutela .jpg" alt="Queijo banana e nutela">
                     </div>
@@ -216,7 +232,7 @@
                     <p class="price">Adicionar • R$ 22,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Banana e nutela .jpg" alt="Banana com nutela">
                     </div>
@@ -224,7 +240,7 @@
                     <p class="price">Adicionar • R$ 24,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Morango e nutela .jpg" alt="Morango e nutela">
                     </div>
@@ -232,23 +248,21 @@
                     <p class="price">Adicionar • R$ 24,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Queijo morango e nutela .jpg" alt="Morango e nutela">
                     </div>
                     <h3>Crepe de Morango e nutela</h3>
                     <p class="price">Adicionar • R$ 26,00</p>
-            
+                </div>
             </div>
-
         </section>
 
-    
         <section class="menu-section" id="especiais">
             <h2 class="section-title">CREPES ESPECIAIS</h2>
 
             <div class="products-grid">
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Frango e cebola .jpg" alt="4 Queijos">
                     </div>
@@ -256,7 +270,7 @@
                     <p class="price">Adicionar • R$ 22,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Frango e rucula .jpg" alt="Frango e rucula">
                     </div>
@@ -264,7 +278,7 @@
                     <p class="price">Adicionar • R$ 20,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Queijo e rucula .jpg" alt="Queijo e rucula">
                     </div>
@@ -272,24 +286,21 @@
                     <p class="price">Adicionar • R$ 24,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Calabresa e cebola .jpg" alt="Calabresa e cebola">
                     </div>
                     <h3>Crepe de Queijo, calabresa, tomate, cebola e orégano</h3>
                     <p class="price">Adicionar • R$ 22,00</p>
                 </div>
-
              </div>
-
         </section>
 
-      
         <section class="menu-section" id="adicionais">
             <h2 class="section-title">ADICIONAIS</h2>
 
             <div class="products-grid">
-                <div class="product-card small">
+                <div class="product-card small card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Catupiry.jpg" alt="Catupiry">
                     </div>
@@ -297,7 +308,7 @@
                     <p class="price">R$ 3,00</p>
                 </div>
 
-                <div class="product-card small">
+                <div class="product-card small card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Cheddar.jpg" alt="Cheddar">
                     </div>
@@ -305,7 +316,7 @@
                     <p class="price">R$ 3,00</p>
                 </div>
 
-                <div class="product-card small">
+                <div class="product-card small card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Tomate .jpg" alt="Tomate">
                     </div>
@@ -313,7 +324,7 @@
                     <p class="price">R$ 3,00</p>
                 </div>
 
-                <div class="product-card small">
+                <div class="product-card small card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Milho.jpg" alt="Milho">
                     </div>
@@ -321,7 +332,7 @@
                     <p class="price">R$ 4,00</p>
                 </div>
 
-                <div class="product-card small">
+                <div class="product-card small card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Batata palha .jpg" alt="Batata palha">
                     </div>
@@ -329,7 +340,7 @@
                     <p class="price">R$ 3,00</p>
                 </div>
 
-                <div class="product-card small">
+                <div class="product-card small card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Presunto.jpg" alt="Presunto">
                     </div>
@@ -337,7 +348,7 @@
                     <p class="price">R$ 3,00</p>
                 </div>
 
-                <div class="product-card small">
+                <div class="product-card small card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Frango Desfiafo .jpg" alt="Frango">
                     </div>
@@ -345,7 +356,7 @@
                     <p class="price">R$ 3,00</p>
                 </div>
 
-                <div class="product-card small">
+                <div class="product-card small card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Calabresa.jpg" alt="Calabresa">
                     </div>
@@ -353,7 +364,7 @@
                     <p class="price">R$ 3,00</p>
                 </div>
 
-                <div class="product-card small">
+                <div class="product-card small card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Bacon.jpg" alt="Bacon">
                     </div>
@@ -361,7 +372,7 @@
                     <p class="price">R$ 5,00</p>
                 </div>
 
-                <div class="product-card small">
+                <div class="product-card small card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Azeitona.jpg" alt="Azeitona">
                     </div>
@@ -369,14 +380,13 @@
                     <p class="price">R$ 5,00</p>
                 </div>
 
-                <div class="product-card small">
+                <div class="product-card small card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Cebola.jpg" alt="Cebola">
                     </div>
                     <h3>Cebola</h3>
                     <p class="price">R$ 3,00</p>
                 </div>
-
              </div>
         </section>
 
@@ -384,7 +394,7 @@
             <h2 class="section-title">BEBIDAS</h2>
 
             <div class="products-grid">
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Refrigerante.jpg" alt="Refrigerante">
                     </div>
@@ -392,7 +402,7 @@
                     <p class="price">Adicionar • R$ 6,00</p>
                 </div>
 
-                <div class="product-card">
+                <div class="product-card card-hover">
                     <div class="product-image">
                         <img src="Img Figma/Suco .jpg" alt="Suco">
                     </div>
@@ -411,7 +421,59 @@
     </footer>
 
     <script>
-    
+        // ========== DESAFIO 1: CLIQUE - Botão de Promoções ==========
+        const botao = document.querySelector("#botaoPromocao");
+        const titulo = document.querySelector("#tituloSite");
+        
+        botao.onclick = function() {
+            titulo.innerHTML = "🎉 PROMOÇÕES ESPECIAIS ATIVAS! 🎉";
+            titulo.style.color = "#ffcc00";
+            document.body.style.backgroundColor = "#1a0000";
+            
+            // Alerta com informação
+            alert("🔥 Promoções do dia:\n\n✨ Compre 2 crepes e ganhe 10% de desconto!\n🍹 Refrigerante grátis na compra acima de R$ 40,00!\n\nVálido até hoje!");
+            
+            // Volta ao normal após 5 segundos
+            setTimeout(function() {
+                titulo.innerHTML = "CREPE DO LULA";
+                titulo.style.color = "#fff";
+                document.body.style.backgroundColor = "#000";
+            }, 5000);
+        };
+
+        // ========== DESAFIO 2: SAUDAÇÃO PERSONALIZADA ==========
+        const campoNome = document.querySelector("#nomeUsuario");
+        const mensagemBoasVindas = document.querySelector("#mensagemBoasVindas");
+
+        campoNome.oninput = function() {
+            if (campoNome.value.trim() !== "") {
+                mensagemBoasVindas.innerHTML = "Olá, <strong>" + campoNome.value + "</strong>! 😊 Seja bem-vindo(a) ao Crepe do Lula! Confira nossas delícias! 🥞✨";
+            } else {
+                mensagemBoasVindas.innerHTML = "";
+            }
+        };
+
+        // ========== DESAFIO 3: REAÇÃO AO MOVIMENTO DO MOUSE ==========
+        const cards = document.querySelectorAll(".card-hover");
+
+        cards.forEach(function(card) {
+            // Quando o mouse passa por cima
+            card.onmouseover = function() {
+                card.style.transform = "scale(1.05)";
+                card.style.border = "3px solid #ffcc00";
+                card.style.boxShadow = "0 8px 20px rgba(255, 204, 0, 0.5)";
+                card.style.transition = "all 0.3s ease";
+            };
+
+            // Quando o mouse sai
+            card.onmouseout = function() {
+                card.style.transform = "scale(1)";
+                card.style.border = "none";
+                card.style.boxShadow = "0 4px 6px rgba(0,0,0,0.3)";
+            };
+        });
+
+        // ========== NAVEGAÇÃO SUAVE (mantida do código original) ==========
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -425,7 +487,7 @@
             });
         });
 
-      
+        // ========== MENU ATIVO AO SCROLL (mantido do código original) ==========
         const sections = document.querySelectorAll('.menu-section');
         const navButtons = document.querySelectorAll('.category-btn');
 
@@ -446,6 +508,13 @@
                 }
             });
         });
+
+        // ========== BÔNUS: Mensagem de boas-vindas ao carregar a página ==========
+        window.onload = function() {
+            setTimeout(function() {
+                alert("🥞 Bem-vindo ao Crepe do Lula! 🎉\n\nExplore nosso cardápio e descubra sabores incríveis!\n\n💡 Dica: Passe o mouse sobre os produtos para vê-los em destaque!");
+            }, 1000);
+        };
     </script>
 </body>
 </html>
