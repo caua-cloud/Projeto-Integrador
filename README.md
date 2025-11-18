@@ -160,7 +160,7 @@ Parte 2:
 
 
 Protótipo no Figma
-https://www.figma.com/design/LsKbokwt5YboST8Qgy4czy/Projeto-integrador-dfe?node-id=3-15&t=uQhii17NsPxUzT2m-1
+https://www.figma.com/proto/LsKbokwt5YboST8Qgy4czy/Projeto-integrador-dfe?node-id=5-2&p=f&t=UIkYcFYnKiQD14c6-1&scaling=scale-down&content-scaling=fixed&page-id=3%3A15&starting-point-node-id=5%3A2
 Nota: No protótipo tem 2 páginas (Crepes do Lula e Confeitaria). Selecionar a página do Crepe do Lula para ver o protótipo do figma.
 
 Próximos Passos
