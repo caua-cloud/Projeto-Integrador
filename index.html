@@ -7,10 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo principal</a>
+    <button id="btnTopo" class="btn-topo" aria-label="Voltar ao topo">↑</button>
     <header>
         <div class="logo">
             <h1 id="tituloSite">CREPE DO LULA</h1>
         </div>
+        <button class="menu-toggle" aria-label="Abrir menu de navegação" aria-expanded="false">
+            ☰
+        </button>
         <nav>
             <a href="index.html" class="nav-btn">MENU</a>
             <a href="eventos.html" class="nav-btn">SOBRE O CREPE DO LULA</a>
@@ -18,7 +23,7 @@
         </nav>
     </header>
 
-    <main>
+    <main id="conteudo-principal">
         <!-- DESAFIO 2: Campo de busca com saudação personalizada -->
         <div style="text-align: center; margin: 30px 0; padding: 20px; background-color: #1a1a1a; border-radius: 15px;">
             <input 
@@ -515,6 +520,34 @@
                 alert("🥞 Bem-vindo ao Crepe do Lula! 🎉\n\nExplore nosso cardápio e descubra sabores incríveis!\n\n💡 Dica: Passe o mouse sobre os produtos para vê-los em destaque!");
             }, 1000);
         };
+    
+        // ========== BOTÃO VOLTAR AO TOPO ==========
+        const btnTopo = document.getElementById('btnTopo');
+        if (btnTopo) {
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 400) {
+                    btnTopo.classList.add('show');
+                } else {
+                    btnTopo.classList.remove('show');
+                }
+            });
+
+            btnTopo.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        }
+
+        // ========== MENU HAMBÚRGUER ==========
+        const menuToggle = document.querySelector('.menu-toggle');
+        const headerEl = document.querySelector('header');
+
+        if (menuToggle && headerEl) {
+            menuToggle.addEventListener('click', () => {
+                const isOpen = headerEl.classList.toggle('nav-open');
+                menuToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+            });
+        }
+
     </script>
 </body>
 </html>
