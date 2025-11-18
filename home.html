@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo principal</a>
+    <button id="btnTopo" class="btn-topo" aria-label="Voltar ao topo">↑</button>
+    <main id="conteudo-principal">
     <div class="home-container">
        
         <div class="home-waves-top"></div>
@@ -40,5 +43,35 @@
         </div>
         <div class="home-waves-bottom"></div>
     </div>
+    </main>
+    <script>
+        // ========== BOTÃO VOLTAR AO TOPO ==========
+        const btnTopo = document.getElementById('btnTopo');
+        if (btnTopo) {
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 400) {
+                    btnTopo.classList.add('show');
+                } else {
+                    btnTopo.classList.remove('show');
+                }
+            });
+
+            btnTopo.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        }
+
+        // ========== MENU HAMBÚRGUER ==========
+        const menuToggle = document.querySelector('.menu-toggle');
+        const headerEl = document.querySelector('header');
+
+        if (menuToggle && headerEl) {
+            menuToggle.addEventListener('click', () => {
+                const isOpen = headerEl.classList.toggle('nav-open');
+                menuToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+            });
+        }
+
+    </script>
 </body>
 </html>
