@@ -8,10 +8,15 @@
     <link rel="stylesheet" href="contato-style.css">
 </head>
 <body>
+    <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo principal</a>
+    <button id="btnTopo" class="btn-topo" aria-label="Voltar ao topo">↑</button>
     <header>
         <div class="logo">
             <h1>CREPE DO LULA</h1>
         </div>
+        <button class="menu-toggle" aria-label="Abrir menu de navegação" aria-expanded="false">
+            ☰
+        </button>
         <nav>
             <a href="index.html" class="nav-btn">MENU</a>
             <a href="eventos.html" class="nav-btn">SOBRE O CREPE DO LULA</a>
@@ -19,7 +24,7 @@
         </nav>
     </header>
 
-    <main class="contato-section">
+    <main id="conteudo-principal" class="contato-section">
         <div class="contato-container">
             <h2 class="contato-title">Entre em Contato</h2>
             
@@ -154,7 +159,12 @@
             const telefone = document.getElementById("telefone").value;
             const tipoPedido = document.getElementById("tipoPedido").value;
             const mensagem = document.getElementById("mensagem").value;
-            
+
+            if (!nome.trim() || !telefone.trim() || !tipoPedido.trim() || !mensagem.trim()) {
+                alert("Por favor, preencha todos os campos obrigatórios.");
+                return;
+            }
+
             // Criar mensagem para WhatsApp
             const mensagemWhatsApp = `Olá! Meu nome é ${nome}.%0A%0A` +
                 `*Tipo:* ${tipoPedido}%0A` +
@@ -188,6 +198,35 @@
             
             e.target.value = value;
         });
+    
+        // ========== BOTÃO VOLTAR AO TOPO ==========
+        const btnTopo = document.getElementById('btnTopo');
+        if (btnTopo) {
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 400) {
+                    btnTopo.classList.add('show');
+                } else {
+                    btnTopo.classList.remove('show');
+                }
+            });
+
+            btnTopo.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        }
+
+        // ========== MENU HAMBÚRGUER ==========
+        const menuToggle = document.querySelector('.menu-toggle');
+        const headerEl = document.querySelector('header');
+
+        if (menuToggle && headerEl) {
+            menuToggle.addEventListener('click', () => {
+                const isOpen = headerEl.classList.toggle('nav-open');
+                menuToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+            });
+        }
+
     </script>
 </body>
 </html>
+
