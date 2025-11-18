@@ -58,10 +58,15 @@
     </style>
 </head>
 <body>
+    <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo principal</a>
+    <button id="btnTopo" class="btn-topo" aria-label="Voltar ao topo">↑</button>
     <header>
         <div class="logo">
             <h1> CREPE DO LULA </h1>
         </div>
+        <button class="menu-toggle" aria-label="Abrir menu de navegação" aria-expanded="false">
+            ☰
+        </button>
         <nav>
 
     <a href="index.html" class="nav-btn">MENU</a>
@@ -71,7 +76,7 @@
 
     </header>
 
-    <main class="about-section">
+    <main id="conteudo-principal" class="about-section">
         <div class="about-content">
             <h2>Sobre o Crepe do Lula</h2>
             
@@ -115,5 +120,34 @@
             <p>🕒 Horário:Seg a sabado.Das 9h as 20h</p>
         </div>
     </footer>
+    <script>
+        // ========== BOTÃO VOLTAR AO TOPO ==========
+        const btnTopo = document.getElementById('btnTopo');
+        if (btnTopo) {
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 400) {
+                    btnTopo.classList.add('show');
+                } else {
+                    btnTopo.classList.remove('show');
+                }
+            });
+
+            btnTopo.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        }
+
+        // ========== MENU HAMBÚRGUER ==========
+        const menuToggle = document.querySelector('.menu-toggle');
+        const headerEl = document.querySelector('header');
+
+        if (menuToggle && headerEl) {
+            menuToggle.addEventListener('click', () => {
+                const isOpen = headerEl.classList.toggle('nav-open');
+                menuToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+            });
+        }
+
+    </script>
 </body>
 </html>
