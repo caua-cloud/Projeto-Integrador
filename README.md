@@ -174,3 +174,36 @@ Próximos Passos
 Contato
 Telefone: (61) 99882-4792
 Instagram: @crepedolula_
+
+
+
+Melhorias implementadas na Parte 2
+- Interatividade:
+  - Botão “voltar ao topo” nas páginas com conteúdo mais longo (cardápio, contato, sobre), facilitando a navegação em telas menores.
+  - Menu hambúrguer no mobile, deixando a navegação mais limpa em celulares e tablets.
+  - Validação básica no formulário de contato (campos obrigatórios não podem ficar vazios antes de abrir o WhatsApp).
+  - Mensagens dinâmicas de boas-vindas e efeitos de hover nos cards de produtos e cartões de contato.
+
+- Acessibilidade:
+  - Inclusão de link “Pular para o conteúdo principal” no topo de todas as páginas.
+  - Uso de <main> com id para o conteúdo principal.
+  - Manutenção de tags semânticas (header, nav, main, section, footer).
+  - Garantia de que botões e links são acessíveis via teclado, com foco visível (estilos :focus).
+  - Revisão de textos alternativos (alt) nas imagens e de labels associados aos campos de formulário.
+
+- Responsividade:
+  - Ajustes no comportamento do menu em telas menores (menu hambúrguer).
+  - Manutenção do grid responsivo dos produtos e dos cartões de contato.
+  - Verificação do layout em 375px (mobile), 768px (tablet) e 1280px/1920px (desktop) usando o DevTools.
+
+- Integrações externas:
+  - Integração com WhatsApp no formulário de contato (mensagem automática com dados do cliente).
+  - Links diretos para o Instagram oficial do Crepe do Lula.
+
+Rubrica e Plano de Melhorias
+- A rubrica de autoavaliação será preenchida com base nas versões finais das páginas e anexada em rubrica.pdf.
+- Próximos passos sugeridos para melhoria contínua:
+  - Implementar modularização completa de header, nav e footer usando componentes HTML reutilizáveis.
+  - Adicionar integração com Google Maps (iframe) na página de contato/sobre, mostrando a localização exata do trailer.
+  - Refinar ainda mais os testes de acessibilidade (Lighthouse + navegação por teclado) e registrar as notas obtidas diretamente no README.
+
