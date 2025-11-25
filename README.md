@@ -51,25 +51,21 @@ Tecnologias Utilizadas
 - Canva - Edição de imagens 
 - Figma - Criação de protótipo
 
-=================================================
- Estrutura do Projeto
+# Estrutura do Projeto
 
-
-projeto-crepe-do-lula/
-├── index.html              # Página do cardápio (página principal)
-├── home.html               # Página inicial de boas-vindas
+- projeto-crepe-do-lula/
+├── index.html              # Página do home (página principal)
+├── home.html               # Página carápio (principal) 
 ├── eventos.html            # Sobre a creperia
 ├── contato.html            # Formulário de contato
 ├── style.css               # Estilos principais
 ├── style.min.css           # CSS minificado (produção)
-├── contato-style.css       # Estilos específicos da página de contato
 ├── Img Figma/              # Imagens dos produtos
+| ├──favicon.png
 │   ├── Frango Catupiry.jpg
 │   ├── Presunto e queijo.jpg
 │   ├── Banana com canela.jpg
 │   └── [outras imagens...]
-├── img/                    # Imagens otimizadas (favicon, etc)
-│   └── favicon.png
 └── docs/                   # Documentação e evidências
     ├── wireframe/
     │   ├── wireframe-figma.pdf
@@ -88,7 +84,7 @@ projeto-crepe-do-lula/
     └── avaliacoes-enviadas/
         ├── avaliacao-dupla-1.md
         └── avaliacao-dupla-2.md
-======================================================
+
 
 # Funcionalidades Implementadas
 
@@ -124,10 +120,10 @@ projeto-crepe-do-lula/
 - Links diretos para WhatsApp e Instagram
 
 # Design Responsivo
-- **Mobile First:** Interface otimizada para celulares
-- **Breakpoints:** 480px (mobile), 768px (tablet), 1024px+ (desktop)
-- **Menu Hambúrguer:** Navegação mobile intuitiva
-- **Grid Adaptativo:** Produtos se reorganizam automaticamente
+- Mobile First: Interface otimizada para celulares
+- Breakpoints: 480px (mobile), 768px (tablet), 1024px+ (desktop)
+- Menu Hambúrguer: Navegação mobile intuitiva
+- Grid Adaptativo: Produtos se reorganizam automaticamente
 
 # Acessibilidade
 - Tags semânticas (header, nav, main, section, footer)
@@ -144,8 +140,7 @@ projeto-crepe-do-lula/
 - Metadados SEO em todas as páginas
 
 
-Evolução do Projeto
-
+## Evolução do Projeto
 # Parte 1: Planejamento e Estrutura Básica
 Período: 08/10/2025 - 14/10/2025
 
@@ -227,46 +222,50 @@ Otimizações Realizadas:
 - ✅ Meta keywords relevantes
 - ✅ Favicon criado e implementado
 - ✅ Títulos únicos por página
-========================================================
+=================================
 4. Performance:
 - ⚡ Lighthouse Score: [ADICIONAR APÓS TESTES]
 - ⚡ PageSpeed Insights: [ADICIONAR APÓS TESTES]
 - ⚡ Tempo de carregamento: [ADICIONAR APÓS TESTES]
-
+==============================
 # Testes Realizados
-
 # Navegadores Testados
+| Google Chrome | ✅ Aprovado | Todas as funcionalidades OK |
+| Mozilla Firefox | ✅ Aprovado | Todas as funcionalidades OK |
+| Microsoft Edge | ✅ Aprovado | Todas as funcionalidades OK |
+| Safari| ✅ Aprovado | Todas as funcionalidades OK |
 
-| Navegador | Versão | Status | Observações |
-|-----------|--------|--------|-------------|
-| Google Chrome | [VERSÃO] | ✅ Aprovado | Todas as funcionalidades OK |
-| Mozilla Firefox | [VERSÃO] | ✅ Aprovado | Todas as funcionalidades OK |
-| Microsoft Edge | [VERSÃO] | ✅ Aprovado | Todas as funcionalidades OK |
-| Safari | [VERSÃO] | ⏳ Pendente | Aguardando acesso a dispositivo Mac/iOS |
-
-Evidências: [docs/testes-navegadores/](docs/testes-navegadores/)
+Evidências: docs/testes-navegadores/
 
 # Dispositivos/Resoluções Testados
+| Dispositivo   | Resolução | Layout | Menu | Imagens | JavaScript | Status |
+| iPhone SE     | 375x667   | ✅     | ✅   | ✅      | ✅        | ✅ Aprovado |
+| iPhone 12 Pro | 390x844   | ✅     | ✅   | ✅      | ✅        | ✅ Aprovado |
+| iPad          | 768x1024  | ✅     | ✅   | ✅      | ✅        | ✅ Aprovado |
+| iPad Pro      | 1024x1366 | ✅     | ✅   | ✅      | ✅        | ✅ Aprovado |
+| Desktop HD    | 1280x720  | ✅     | ✅   | ✅      | ✅        | ✅ Aprovado |
+| Desktop FHD   | 1920x1080 | ✅     | ✅   | ✅      | ✅        | ✅ Aprovado |
 
-| Dispositivo | Resolução | Layout | Menu | Imagens | JavaScript | Status |
-|-------------|-----------|--------|------|---------|------------|--------|
-| iPhone SE | 375x667 | ✅ | ✅ | ✅ | ✅ | ✅ Aprovado |
-| iPhone 12 Pro | 390x844 | ✅ | ✅ | ✅ | ✅ | ✅ Aprovado |
-| iPad | 768x1024 | ✅ | ✅ | ✅ | ✅ | ✅ Aprovado |
-| iPad Pro | 1024x1366 | ✅ | ✅ | ✅ | ✅ | ✅ Aprovado |
-| Desktop HD | 1280x720 | ✅ | ✅ | ✅ | ✅ | ✅ Aprovado |
-| Desktop FHD | 1920x1080 | ✅ | ✅ | ✅ | ✅ | ✅ Aprovado |
-
-Evidências: [docs/testes-responsividade/](docs/testes-responsividade/)
+Evidências: docs/testes-responsividade/
 
 # Teste em Dispositivo Real
-- Dispositivo: [ADICIONAR]
-- Sistema: [ADICIONAR]
-- Navegador: [ADICIONAR]
-- Experiência: [ADICIONAR DESCRIÇÃO]
+- Dispositivo: Iphone 11
+- Sistema: IOS
+- Navegador: Safari 
+- Experiência: Ótima, omo o previsto, sem erros
+
+- Dispositivo: Vaio 
+- Sistema: Windows
+- Navegador: Chorome
+- Experiência: Maravilhosa
+  
+- Dispositivo: Iphone 14
+- Sistema: IOS
+- Navegador: Safari 
+- Experiência: Ótima, omo o previsto, sem erros
 
 # Reflexões e Aprendizados
-
+======================================
 ### Cauã Cerqueira Santos
 
 #### Aprendizados Técnicos
@@ -299,48 +298,63 @@ Evidências: [docs/testes-responsividade/](docs/testes-responsividade/)
 
 #### Desafios Enfrentados
 [ADICIONAR MAIOR DESAFIO E COMO SUPEROU]
-
-=========================================================
-
-# Ana Maria Pontes da Fonseca Gonzatti
-Aprendizados Técnicos
-Evoluí muito no Figma- Aprendi que design resolve problemas, não só "fica bonito". Cada cor, espaçamento e fonte tem propósito. Entendi design responsivo: não é encolher proporcionalmente, é repensar o layout para cada dispositivo. Acompanhar o desenvolvimento me deu alfabetização técnica  (HTML, CSS, JavaScript) que facilitou muito a comunicação. Descobri acessibilidade: contraste não é preferência, é necessidade.
+=========================================
+## Ana Maria Pontes 
+-Aprendizados Técnicos
+Evoluí muito no Figma — aprendi que design não é apenas “ficar bonito”: ele resolve problemas. Cada cor, espaçamento e fonte tem um propósito. Entendi também o design responsivo: não é apenas reduzir proporcionalmente, e sim repensar o layout para cada dispositivo.
+Acompanhar o desenvolvimento me deu alfabetização técnica (HTML, CSS, JavaScript), o que facilitou muito a comunicação. Descobri a importância da acessibilidade: contraste não é preferência, é necessidade.
 Aprendizados de Processo
-Aprendi que designers e desenvolvedores precisam falar a mesma língua. No início, criava designs sem pensar em viabilidade técnica. Estabelecemos processo iterativo: eu desenhava, Cauã implementava, eu revisava, ele ajustava. Aprendi a documentar designs (cores exatas, espaçamentos, fontes) e usar prints anotados para feedback visual. Comunicação por áudio funcionou melhor que texto. Além disso aprendi a passar as minhas ideias do protóyipo para o código, me raciocínio e codificação evoluíram. 
-Desafios Enfrentados
-Equilibrar estética com funcionalidade foi o maior desafio. Ideias lindas que não funcionavam na prática. Manter consistência visual em 4 páginas diferentes exigiu sistema de componentes reutilizáveis. Aprendi até o básico de GitHub para acompanhar o projeto. Se pudesse voltar, criaria style guide antes de começar e testaria designs em telas reais mais cedo.
-
-Principais habilidades desenvolvidas:
-- Design UI/UX no Figma
-- Escolha de paleta de cores
-- Organização de projeto
-- Colaboração com desenvolvedor
-- Desenvolver em linguagens novas (HTML, CSS, Java,Script)
-
-Tecnologia mais desafiadora:
-A parte de codificar e aparecer o resultado esperado na tela, principalmente cm o Java. 
-
-O que domino melhor agora:
-Raciocínio alinhado entre design e desenvolvedor, com certeza, mas também vi uma grande evolução nas linguagens de programação utilizdos. 
-
-# Aprendizados de Processo
-Como foi trabalhar em dupla:
-Vi grande melhoria nas nossas habilidades de comunicação dentro do trabalho, fomos nos adaptando e construindouma relação de parceria e profissionalismo, onde cada um ajudva o outro como podia e quando necessário. Acredito que nós dois, como dupla desse projeto, aprendemos muito mais trabalhando juntos do que separados, o que foi essencial para a evolução do projeto. 
-
-Organização de tarefas:
-Conseguimos dividir muito bem, de forma que cada um trabalhou mais com o que tinha mais afinidade mas também aprendeu sobre tudo que utilizamos para concluir o projeto. Além de nos ajudarmos bastante. 
-
-O que funcionou bem:
-A comunicação e o desenvolvimento do projeto, evoluímos como o esperado, mesmo precisando de alguns ajuste na ideia inicial. 
+Percebi que designers e desenvolvedores precisam falar a mesma língua. No início, eu criava designs sem pensar na viabilidade técnica. Depois, estabelecemos um processo iterativo: eu desenhava, Cauã implementava, eu revisava e ele ajustava.
+Aprendi a documentar os designs (cores exatas, espaçamentos, fontes) e a usar prints anotados para feedback visual. A comunicação por áudio funcionou melhor que texto. Além disso, aprendi a transformar minhas ideias do protótipo em código — meu raciocínio e minha codificação evoluíram muito.
 
 Desafios Enfrentados
-Meu mior desafio com certeza foi aprender as linguagens noas e linhr elas com a ideia inicial no protótipo, mas estudando e testando tudo fluiu da melhor forma. 
+Equilibrar estética com funcionalidade foi o maior desafio. Muitas ideias bonitas não funcionavam na prática. Manter consistência visual em quatro páginas diferentes exigiu criar um sistema de componentes reutilizáveis. Também aprendi o básico de GitHub para acompanhar o projeto. Se pudesse voltar, criaria um style guide antes de começar e testaria os designs em telas reais mais cedo.
+
+Principais Habilidades Desenvolvidas
+Design UI/UX no Figma
+Escolha de paleta de cores
+Organização de projeto
+Colaboração com desenvolvedor
+Desenvolvimento em novas linguagens (HTML, CSS, JavaScript)
+
+Tecnologia mais desafiadora
+A parte de codificar e ver o resultado esperado na tela, principalmente com JavaScript.
+
+O que domino melhor agora?
+Com certeza, meu raciocínio alinhado entre design e desenvolvimento. Também percebi uma grande evolução nas linguagens de programação que utilizamos.
+
+Aprendizados de Processo
+-Como foi trabalhar em dupla
+Senti uma grande melhoria na nossa comunicação dentro do projeto. Fomos nos adaptando e construindo uma relação de parceria e profissionalismo, onde cada um ajudava o outro sempre que necessário. Acredito que, como dupla, aprendemos muito mais trabalhando juntos do que separados — e isso foi essencial para a evolução do projeto.
+
+Organização de tarefas
+Conseguimos dividir muito bem as tarefas: cada um trabalhou mais naquilo que tinha mais afinidade, mas ambos aprendemos sobre tudo o que utilizamos para concluir o projeto. Ajudamo-nos bastante ao longo do processo.
+
+O que funcionou bem
+A comunicação e o desenvolvimento do projeto. Evoluímos como o esperado, mesmo precisando ajustar algumas partes da ideia inicial.
+
+Desafios enfrentados
+Meu maior desafio foi aprender linguagens novas e alinhá-las com a ideia inicial do protótipo. Mas, estudando e testando, tudo fluiu da melhor forma.
 
 # Reflexão da Dupla
-- Evolução do Projeto
-Da Parte 1 até agora:
-O projeto passou por uma transformação incrível. Na Parte 1 (outubro), tínhamos apenas wireframes estáticos no Figma e páginas HTML básicas sem funcionalidade. Era um "esqueleto" visual do que queríamos construir. Na Parte 2 (novembro), ganhamos vida com JavaScript - interatividade, validações, menu hambúrguer, efeitos hover. O site deixou de ser estático e passou a reagir ao usuário. Na Parte 3 (agora), atingimos maturidade profissional: otimizações de performance, testes extensivos, publicação online, documentação completa. Saímos de "trabalho acadêmico" para "produto real".
-A evolução não foi apenas técnica - foi também na nossa mentalidade. No início, pensávamos "vamos fazer um site bonito". No meio, percebemos "precisamos fazer um site que funciona bem". No final, entendemos "precisamos fazer um site acessível, rápido, testado e documentado". Amadurecemos como profissionais.
+Evolução do Projeto
+Da Parte 1 até agora
+
+O projeto passou por uma transformação incrível.
+
+Parte 1 (outubro): tínhamos apenas wireframes estáticos no Figma e páginas HTML básicas, sem funcionalidade. Era um “esqueleto” do que queríamos criar.
+
+Parte 2 (novembro): o projeto ganhou vida com JavaScript — interatividade, validações, menu hambúrguer, efeitos hover. O site deixou de ser estático e passou a reagir ao usuário.
+
+Parte 3 (agora): atingimos maturidade profissional: otimizações de performance, testes extensivos, publicação online e documentação completa. O trabalho deixou de parecer acadêmico e virou um produto real.
+
+A evolução não foi apenas técnica — foi também mental.
+No início, pensávamos: “vamos fazer um site bonito.”
+Depois percebemos: “precisamos fazer um site que funcione bem.”
+No final entendemos: “precisamos fazer um site acessível, rápido, testado e documentado.”
+
+Amadurecemos como profissionais.
+
 
 Maiores mudanças/melhorias:
 ✅ Interatividade completa: Saudações personalizadas, botão de promoções, efeitos hover nos cards, validação de formulário
