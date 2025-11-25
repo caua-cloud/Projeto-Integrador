@@ -20,7 +20,7 @@ Ana Maria Pontes da Fonseca Gonzatti:Designer UI/UX | Criação do protótipo no
 - Site Publicado: https://caua-cloud.github.io/Projeto-Integrador/
 - Link Repositório: https://github.com/caua-cloud/Projeto-Integrador.git
 
-**Data de Publicação:** 25/11/2025
+Data de Publicação: 25/11/2025
 
 ##  Design e Identidade Visual
 
@@ -51,9 +51,8 @@ Tecnologias Utilizadas
 - Canva - Edição de imagens 
 - Figma - Criação de protótipo
 
-# Estrutura do Projeto
-
-- projeto-crepe-do-lula/
+##Estrutura do Projeto
+projeto-crepe-do-lula/
 ├── index.html              # Página do home (página principal)
 ├── home.html               # Página carápio (principal) 
 ├── eventos.html            # Sobre a creperia
@@ -265,40 +264,29 @@ Evidências: docs/testes-responsividade/
 - Experiência: Ótima, omo o previsto, sem erros
 
 # Reflexões e Aprendizados
-======================================
-### Cauã Cerqueira Santos
+# Cauã Cerqueira Santos
+Aprendizados Técnicos
+Durante o projeto, evoluí bastante no Figma. Passei a entender o design como solução de problemas e não só como estética. Compreendi melhor o design responsivo e aprofundei meu conhecimento em HTML, CSS e JavaScript, o que melhorou muito minha comunicação com o Cauã. Também percebi a importância real da acessibilidade — contraste e legibilidade fazem diferença.
 
-#### Aprendizados Técnicos
-[ADICIONAR REFLEXÃO PESSOAL]
+-Aprendizados de Processo
+Aprendi que designer e desenvolvedor precisam caminhar juntos. No início eu criava telas sem pensar no código, mas ajustamos nosso processo: eu criava, o Cauã implementava, eu revisava e ele refinava. A documentação dos elementos e o uso de áudios facilitaram demais o fluxo. Também senti um grande avanço ao transformar minhas ideias do protótipo em código.
 
-**Principais habilidades desenvolvidas:**
-- HTML5 semântico e estruturado
-- CSS3 avançado (Grid, Flexbox, animações)
-- JavaScript para interatividade
-- Git e GitHub para versionamento
-- Responsividade e Mobile First
+-Desafios Enfrentados
+Conciliar estética e funcionalidade foi um dos pontos mais difíceis. Nem tudo que funciona no Figma funciona no navegador. Criar consistência visual entre as páginas exigiu organizar componentes reutilizáveis. Aprender GitHub também foi um desafio, mas me ajudou a acompanhar melhor o projeto.
 
-**Tecnologia mais desafiadora:**
-[ADICIONAR]
+-Principais Habilidades Desenvolvidas
+UI/UX Design
+Escolha de cores e estrutura visual
+Organização de projeto
+Colaboração com desenvolvedor
+Linguagens: HTML, CSS e JavaScript
 
-**O que domino melhor agora:**
-[ADICIONAR]
+-Trabalho em Dupla
+Nossa comunicação evoluiu muito. Criamos uma boa parceria, onde um completava o trabalho do outro. Dividimos as tarefas de forma equilibrada e aprendemos juntos ao longo do processo. O que mais funcionou foi justamente essa troca constante.
 
-#### Aprendizados de Processo
-[ADICIONAR REFLEXÃO SOBRE TRABALHO EM DUPLA]
+-Desafio Pessoal
+Meu maior desafio foi aprender as linguagens novas e ajustar tudo ao protótipo inicial, mas com estudo e prática tudo fluiu bem.
 
-**Como foi trabalhar em dupla:**
-[ADICIONAR]
-
-**Organização de tarefas:**
-[ADICIONAR]
-
-**O que funcionou bem:**
-[ADICIONAR]
-
-#### Desafios Enfrentados
-[ADICIONAR MAIOR DESAFIO E COMO SUPEROU]
-=========================================
 ## Ana Maria Pontes 
 -Aprendizados Técnicos
 Evoluí muito no Figma — aprendi que design não é apenas “ficar bonito”: ele resolve problemas. Cada cor, espaçamento e fonte tem um propósito. Entendi também o design responsivo: não é apenas reduzir proporcionalmente, e sim repensar o layout para cada dispositivo.
