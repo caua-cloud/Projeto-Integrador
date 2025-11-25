@@ -12,6 +12,8 @@
 </head>
 
 <body>
+    <img src="favicon.png" class="corner-icon" alt="Logo do site">
+
     <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo principal</a>
     <button id="btnTopo" class="btn-topo" aria-label="Voltar ao topo">↑</button>
     <header>
@@ -430,7 +432,7 @@
     </footer>
 
     <script>
-        // ========== DESAFIO 1: CLIQUE - Botão de Promoções ==========
+      
         const botao = document.querySelector("#botaoPromocao");
         const titulo = document.querySelector("#tituloSite");
         
@@ -439,10 +441,9 @@
             titulo.style.color = "#ffcc00";
             document.body.style.backgroundColor = "#1a0000";
             
-            // Alerta com informação
+           
             alert("🔥 Promoções do dia:\n\n✨ Compre 2 crepes e ganhe 10% de desconto!\n🍹 Refrigerante grátis na compra acima de R$ 40,00!\n\nVálido até hoje!");
             
-            // Volta ao normal após 5 segundos
             setTimeout(function() {
                 titulo.innerHTML = "CREPE DO LULA";
                 titulo.style.color = "#fff";
@@ -450,7 +451,7 @@
             }, 5000);
         };
 
-        // ========== DESAFIO 2: SAUDAÇÃO PERSONALIZADA ==========
+    
         const campoNome = document.querySelector("#nomeUsuario");
         const mensagemBoasVindas = document.querySelector("#mensagemBoasVindas");
 
@@ -462,7 +463,6 @@
             }
         };
 
-        // ========== DESAFIO 3: REAÇÃO AO MOVIMENTO DO MOUSE ==========
         const cards = document.querySelectorAll(".card-hover");
 
         cards.forEach(function(card) {
@@ -474,7 +474,7 @@
                 card.style.transition = "all 0.3s ease";
             };
 
-            // Quando o mouse sai
+            
             card.onmouseout = function() {
                 card.style.transform = "scale(1)";
                 card.style.border = "none";
@@ -482,7 +482,7 @@
             };
         });
 
-        // ========== NAVEGAÇÃO SUAVE (mantida do código original) ==========
+        
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -517,14 +517,14 @@
             });
         });
 
-        // ========== BÔNUS: Mensagem de boas-vindas ao carregar a página ==========
+       
         window.onload = function() {
             setTimeout(function() {
                 alert("🥞 Bem-vindo ao Crepe do Lula! 🎉\n\nExplore nosso cardápio e descubra sabores incríveis!\n\n💡 Dica: Passe o mouse sobre os produtos para vê-los em destaque!");
             }, 1000);
         };
     
-        // ========== BOTÃO VOLTAR AO TOPO ==========
+      
         const btnTopo = document.getElementById('btnTopo');
         if (btnTopo) {
             window.addEventListener('scroll', () => {
@@ -540,7 +540,7 @@
             });
         }
 
-        // ========== MENU HAMBÚRGUER ==========
+       
         const menuToggle = document.querySelector('.menu-toggle');
         const headerEl = document.querySelector('header');
 
