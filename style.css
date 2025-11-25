@@ -667,3 +667,13 @@ button:focus {
         margin-top: 10px;
     }
 }
+
+
+.corner-icon {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    height: 80px;
+    z-index: 1000;
+}
+
