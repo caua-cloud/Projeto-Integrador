@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="contato-style.min.css">
 </head>
 <body>
+    <img src="favicon.png" class="corner-icon" alt="Logo do site">
+
     <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo principal</a>
     <button id="btnTopo" class="btn-topo" aria-label="Voltar ao topo">↑</button>
     <header>
@@ -32,13 +34,13 @@
         <div class="contato-container">
             <h2 class="contato-title">Entre em Contato</h2>
             
-            <!-- Mensagem de Boas-vindas Dinâmica -->
+          
             <div class="welcome-message">
                 <p id="mensagemBoasVindas"></p>
             </div>
 
             <div class="contato-content">
-                <!-- Formulário de Contato -->
+               
                 <div class="contato-form-wrapper">
                     <form class="contato-form" id="formContato">
                         <div class="form-group">
@@ -101,7 +103,7 @@
                     </form>
                 </div>
 
-                <!-- Informações de Contato -->
+                
                 <div class="contato-info-wrapper">
                     <div class="info-card">
                         <div class="info-icon whatsapp-icon">📱</div>
@@ -140,7 +142,7 @@
     </footer>
 
     <script>
-        // Mensagem de boas-vindas dinâmica
+        
         const campoNome = document.querySelector("#nomeUsuario");
         const mensagemBoasVindas = document.querySelector("#mensagemBoasVindas");
 
@@ -153,7 +155,7 @@
             }
         };
 
-        // Manipulação do formulário
+       
         const form = document.getElementById("formContato");
         
         form.addEventListener("submit", function(e) {
@@ -169,13 +171,13 @@
                 return;
             }
 
-            // Criar mensagem para WhatsApp
+         
             const mensagemWhatsApp = `Olá! Meu nome é ${nome}.%0A%0A` +
                 `*Tipo:* ${tipoPedido}%0A` +
                 `*Telefone:* ${telefone}%0A%0A` +
                 `*Mensagem:*%0A${mensagem}`;
             
-            // Redirecionar para WhatsApp
+            
             window.open(`https://wa.me/5561998824792?text=${mensagemWhatsApp}`, '_blank');
             
             
@@ -203,7 +205,7 @@
             e.target.value = value;
         });
     
-        // ========== BOTÃO VOLTAR AO TOPO ==========
+      
         const btnTopo = document.getElementById('btnTopo');
         if (btnTopo) {
             window.addEventListener('scroll', () => {
@@ -219,7 +221,7 @@
             });
         }
 
-        // ========== MENU HAMBÚRGUER ==========
+        
         const menuToggle = document.querySelector('.menu-toggle');
         const headerEl = document.querySelector('header');
 
@@ -233,4 +235,6 @@
     </script>
 </body>
 </html>
+
+
 
