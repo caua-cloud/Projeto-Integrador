@@ -87,13 +87,13 @@ projeto-crepe-do-lula/
 
 # Funcionalidades Implementadas
 
-# Página Inicial (index.html)
+## Página Inicial (index.html)
 - Layout de boas-vindas com design moderno
 - Links diretos para cardápio, eventos e pedidos
 - Integração com Instagram e WhatsApp
 - Design com ondas decorativas em gradiente
 
-# Cardápio (home.html)
+## Cardápio (home.html)
 - Grid responsivo de produtos (4 → 3 → 2 colunas)
 - Categorias: Salgados, Doces, Especiais, Adicionais, Bebidas
 - Navegação por âncoras entre seções
@@ -103,13 +103,13 @@ projeto-crepe-do-lula/
   - Cards com efeito hover (escala + borda amarela)
   - Navegação suave entre seções
 
-# Sobre (eventos.html)
+## Sobre (eventos.html)
 - História da creperia
 - Informações de contato
 - Horário de funcionamento
 - Design clean e informativo
 
-# Contato (contato.html)
+## Contato (contato.html)
 - Formulário completo de contato
 - Validação de campos obrigatórios
 - Máscara automática para telefone
@@ -118,13 +118,13 @@ projeto-crepe-do-lula/
 - Cards com informações de contato
 - Links diretos para WhatsApp e Instagram
 
-# Design Responsivo
+## Design Responsivo
 - Mobile First: Interface otimizada para celulares
 - Breakpoints: 480px (mobile), 768px (tablet), 1024px+ (desktop)
 - Menu Hambúrguer: Navegação mobile intuitiva
 - Grid Adaptativo: Produtos se reorganizam automaticamente
 
-# Acessibilidade
+## Acessibilidade
 - Tags semânticas (header, nav, main, section, footer)
 - Link "Pular para conteúdo principal"
 - Textos alternativos (alt) em todas as imagens
@@ -132,15 +132,15 @@ projeto-crepe-do-lula/
 - Foco visível para navegação por teclado
 - Botões com aria-label e aria-expanded
 
-# Performance
+## Performance
 - Imagens otimizadas com TinyPNG/Squoosh
 - CSS minificado para produção
 - Lazy loading em imagens
 - Metadados SEO em todas as páginas
 
 
-## Evolução do Projeto
-# Parte 1: Planejamento e Estrutura Básica
+# Evolução do Projeto
+## Parte 1: Planejamento e Estrutura Básica
 Período: 08/10/2025 - 14/10/2025
 
 Realizações:
@@ -156,7 +156,7 @@ Entregas:
 - CSS básico com paleta de cores definida
 - Repositório GitHub configurado
 
-# Parte 2: Interatividade e Melhorias
+## Parte 2: Interatividade e Melhorias
 Período: 15/11/2025
 
 Realizações:
@@ -193,7 +193,7 @@ Melhorias Implementadas:
 - ✅ WhatsApp com mensagem pré-formatada
 - ✅ Links para Instagram oficial
 
-# Parte 3: Publicação e Finalização
+## Parte 3: Publicação e Finalização
 Período: 25/11/2025
 
 Realizações:
@@ -228,7 +228,7 @@ Otimizações Realizadas:
 -  Tempo de carrgamento: Rápido, 100
   
 # Testes Realizados
-# Navegadores Testados
+## Navegadores Testados
 | Google Chrome | ✅ Aprovado | Todas as funcionalidades OK |
 | Mozilla Firefox | ✅ Aprovado | Todas as funcionalidades OK |
 | Microsoft Edge | ✅ Aprovado | Todas as funcionalidades OK |
@@ -236,7 +236,7 @@ Otimizações Realizadas:
 
 Evidências: docs/testes-navegadores/
 
-# Dispositivos/Resoluções Testados
+## Dispositivos/Resoluções Testados
 | Dispositivo   | Resolução | Layout | Menu | Imagens | JavaScript | Status |
 | iPhone SE     | 375x667   | ✅     | ✅   | ✅      | ✅        | ✅ Aprovado |
 | iPhone 12 Pro | 390x844   | ✅     | ✅   | ✅      | ✅        | ✅ Aprovado |
@@ -247,7 +247,7 @@ Evidências: docs/testes-navegadores/
 
 Evidências: docs/testes-responsividade/
 
-# Teste em Dispositivo Real
+## Teste em Dispositivo Real
 - Dispositivo: Iphone 11
 - Sistema: IOS
 - Navegador: Safari 
@@ -264,7 +264,7 @@ Evidências: docs/testes-responsividade/
 - Experiência: Ótima, omo o previsto, sem erros
 
 # Reflexões e Aprendizados
-# Cauã Cerqueira Santos
+## Cauã Cerqueira Santos
 Aprendizados Técnicos
 Durante o projeto, evoluí bastante no Figma. Passei a entender o design como solução de problemas e não só como estética. Compreendi melhor o design responsivo e aprofundei meu conhecimento em HTML, CSS e JavaScript, o que melhorou muito minha comunicação com o Cauã. Também percebi a importância real da acessibilidade — contraste e legibilidade fazem diferença.
 
