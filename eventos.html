@@ -62,6 +62,8 @@
     </style>
 </head>
 <body>
+    <img src="favicon.png" class="corner-icon" alt="Logo do site">
+
     <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo principal</a>
     <button id="btnTopo" class="btn-topo" aria-label="Voltar ao topo">↑</button>
     <header>
@@ -125,7 +127,7 @@
         </div>
     </footer>
     <script>
-        // ========== BOTÃO VOLTAR AO TOPO ==========
+        
         const btnTopo = document.getElementById('btnTopo');
         if (btnTopo) {
             window.addEventListener('scroll', () => {
@@ -141,7 +143,7 @@
             });
         }
 
-        // ========== MENU HAMBÚRGUER ==========
+        
         const menuToggle = document.querySelector('.menu-toggle');
         const headerEl = document.querySelector('header');
 
@@ -155,3 +157,4 @@
     </script>
 </body>
 </html>
+
