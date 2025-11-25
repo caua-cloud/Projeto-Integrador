@@ -51,7 +51,8 @@ Tecnologias Utilizadas
 - Canva - Edição de imagens 
 - Figma - Criação de protótipo
 
-##Estrutura do Projeto
+## Estrutura do Projeto
+
 projeto-crepe-do-lula/
 ├── index.html              # Página do home (página principal)
 ├── home.html               # Página carápio (principal) 
@@ -78,11 +79,10 @@ projeto-crepe-do-lula/
     │   ├── tablet-768px.png
     │   └── desktop-1920px.png
     ├── avaliacoes-recebidas/
-    │   ├── feedback-dupla-1.md
-    │   └── feedback-dupla-2.md
+    │   └── feedback-dupla-1.md
     └── avaliacoes-enviadas/
-        ├── avaliacao-dupla-1.md
-        └── avaliacao-dupla-2.md
+        └── avaliacao-dupla-1.md
+         
 
 
 # Funcionalidades Implementadas
