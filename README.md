@@ -4,7 +4,7 @@ Site institucional e cardápio digital para a creperia artesanal Crepe do Lula, 
 
  # Sobre o Projeto
 
-O **Crepe do Lula** é um site para uma creperia artesanal localizada em frente à Universidade Católica em Brasília. O projeto tem como objetivo apresentar o cardápio completo, divulgar o negócio e facilitar o contato com clientes e interessados em contratar serviços para eventos, divulgar o negócio nas edes sociais e proporcionar experiência responsiva em todos os dispositivos. 
+O **Crepe do Lula** é um site para uma creperia artesanal localizada em frente à Universidade Católica em Brasília. O projeto tem como objetivo apresentar o cardápio completo, divulgar o negócio e facilitar o contato com clientes e interessados em contratar serviços para eventos, divulgar o negócio nas edes sociais e proporcionar experiência responsiva em todos os dispositivos.  
 
 Este projeto foi desenvolvido como Projeto Integrador da disciplina de Desenvolvimento Front-End, aplicando conceitos de HTML5, CSS3, JavaScript, responsividade, acessibilidade e boas práticas de desenvolvimento web.
 
