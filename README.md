@@ -61,27 +61,26 @@ projeto-crepe-do-lula/
 ├── style.css               # Estilos principais
 ├── style.min.css           # CSS minificado (produção)
 ├── Img Figma/              # Imagens dos produtos
-| ├──favicon.png
+|   ├──favicon.png
 │   ├── Frango Catupiry.jpg
 │   ├── Presunto e queijo.jpg
 │   ├── Banana com canela.jpg
 │   └── [outras imagens...]
-└── docs/                   # Documentação e evidências
-    ├── wireframe/
-    │   ├── wireframe-figma.pdf
-    │   └── wireframe-figma.png
-    ├── testes-navegadores/
-    │   ├── chrome.png
-    │   ├── firefox.png
-    │   └── edge.png
-    ├── testes-responsividade/
-    │   ├── mobile-375px.png
-    │   ├── tablet-768px.png
-    │   └── desktop-1920px.png
-    ├── avaliacoes-recebidas/
-    │   └── feedback-dupla-1.md
-    └── avaliacoes-enviadas/
-        └── avaliacao-dupla-1.md
+├── wireframe/
+│   ├── wireframe-figma.pdf
+│   └── wireframe-figma.png
+├── testes-navegadores/
+│   ├── chrome.png
+│   ├── firefox.png
+│   └── edge.png
+├── testes-responsividade/
+│   ├── mobile-375px.png
+│   ├── tablet-768px.png
+│   └── desktop-1920px.png
+├── avaliacoes-recebidas/
+│   └── feedback-dupla-1.md
+└── avaliacoes-enviadas/
+     └── avaliacao-dupla-1.md
          
 
 
@@ -372,17 +371,49 @@ Supera porque:
 - Não é apenas "um site", é uma experiência completa do usuário
 - Agregaria valor real ao negócio, aumentando vendas e profissionalizando presença digital
 
-=================================================
-#### Feedbacks Recebidos
+
+# Feedbacks Recebidos
 **O que aprendemos com a avaliação dos colegas:**
-[ADICIONAR APÓS RECEBER FEEDBACKS]
+1. Validação do Trabalho Realizado
+Percebemos que o planejamento inicial (Figma, wireframes) e a documentação contínua fazem toda a diferença na qualidade final do projeto.
+
+2. Áreas que Podem Evoluir
+Mesmo um projeto funcional sempre tem espaço para melhorias técnicas e de UX que podem torná-lo mais profissional.
+
+3.Perspectiva Externa é Valiosa
+Quando trabalhamos muito tempo no mesmo projeto, perdemos a capacidade de ver suas limitações. O olhar externo é essencial.
 
 **Feedbacks mais úteis:**
-[ADICIONAR]
+1. Modularização e Organização do JavaScript 
+"Separar o JS em arquivos próprios (ex: script.js) e adicionar comentários aumentariam a clareza e manutenção do código, especialmente se o projeto crescer."
+
+2. Aprimorar experiência do usuário com feedback e estados 
+"Por exemplo, ao enviar o formulário de contato, mostrar uma mensagem de 'sucesso' ou 'erro'; implementar um 'loading' ao enviar ou processar algo, para tornar a experiência mais polida e profissional."
+
+3. Testes reais de responsividade e performance 
+"Seria recomendável testar em dispositivos físicos e usar ferramentas como Lighthouse ou PageSpeed para medir performance e acessibilidade."
 
 **Como pretendemos aplicar:**
-[ADICIONAR]
-=============================================
+1. Refatoração do JavaScript
+ Criar arquivo scripts/main.js com todo JS do home.html
+ Criar arquivo scripts/contato.js para funcionalidades de contato
+ Criar arquivo scripts/navigation.js para menu hambúrguer e navegação
+ Adicionar comentários JSDoc em todas as funções
+
+2. Feedback Visual ao Usuário
+ Implementar modal de "Mensagem enviada com sucesso!"
+ Adicionar spinner de loading ao enviar formulário
+ Criar mensagens de erro amigáveis para validações
+ Adicionar toast notifications para ações importantes
+
+3. Melhorias de Design
+ Implementar fonte customizada do Google Fonts (ex: Poppins)
+ Criar logo profissional para o Crepe do Lula
+ Adicionar micro-animações CSS em botões e cards
+ Implementar transições suaves entre seções
+ Melhorar hierarquia visual com variações de cores
+
+
 
 # Relevância para o Negócio
 - O site agregaria valor ao Crepe do Lula?
